@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Discord bot",
+    "description": "events handler",
+    "version": "0.1",
+    "permissions": [
+        "tabs",
+        "https://www.chegg.com/homework-help/questions-and-answers/*"
+      ],
+      "icons":{
+          "16":"file.png"
+      },
+      "browser_action": {
+          "default_icon":"file.png",
+          "default_popup":"popup.html"
+      },
+      
+      "content_scripts":[
+          {
+            "matches":["https://www.chegg.com/homework-help/questions-and-answers/*"],
+            "js":["content.js","jquery.js"]
+          }
+      ]
+}
