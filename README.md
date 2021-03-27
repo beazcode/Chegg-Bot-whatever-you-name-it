@@ -8,3 +8,4 @@ for 30$ and take it from there do whatever u want
 it's MIT license consider this as legit scraping tool...
 
 and fuck this life
+https://drive.google.com/drive/folders/1aVHzfuu-z7l2koWx_MSTNQwyAbq_TtKM?usp=sharing
